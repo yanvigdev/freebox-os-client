@@ -11,7 +11,8 @@ var request = require('request');
 var endpoints = [].concat(
     require('./endpoints/authentication'),
     require('./endpoints/config'),
-    require('./endpoints/download')
+    require('./endpoints/download'),
+    require('./endpoints/lan')
 );
 
 /**
@@ -111,7 +112,7 @@ function createEndPoint(endpoint) {
               'X-Fbx-App-Auth': sessionToken
             };
         }
-        
+
 
         /**
          * Replace the route parameters

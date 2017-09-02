@@ -55,7 +55,7 @@ function defaultCallback(response) {
 #### Define a callback function
 The callback function has only one parameter : **response**
 
-The response convention is : 
+The response convention is :
 
 1. *On communication success :* The same as the freebox, see the [documentation](http://dev.freebox.fr/sdk/os/#APIResponse)
 2. *On communication error :* The response returned looks :
@@ -164,7 +164,7 @@ Name                                                                      |    M
 [Getting the challenge value](http://dev.freebox.fr/sdk/os/login/#getting-the-challenge-value)|getChallenge
 [Opening a session](http://dev.freebox.fr/sdk/os/login/#opening-a-session)|openSession
 [Closing the current session](http://dev.freebox.fr/sdk/os/login/#closing-the-current-session)|closeSession
-    
+
 #### Download
 
 Name                                                                      |    Method
@@ -179,7 +179,15 @@ Name                                                                      |    M
 [Get the Download Stats](http://dev.freebox.fr/sdk/os/download/#get-the-download-stats)|getDownloadStats
 [Get the list of files for a given Download](http://dev.freebox.fr/sdk/os/download/#get-the-list-of-files-for-a-given-download)|getFilesOfDownload
 [Change the priority of a Download File](http://dev.freebox.fr/sdk/os/download/#change-the-priority-of-a-download-file)|changePriorityOfDownloadFile
-    
+
+#### Lan
+
+Name                                                                      |    Method
+:------------------------------------------------------------------------:|:----------------------------------------:
+[Retrieve all Lan Interfaces](https://dev.freebox.fr/sdk/os/lan/#lan-browser-api)|getLanInterfaces
+[Retrieve all Lan hosts](https://dev.freebox.fr/sdk/os/lan/#get--api-v4-lan-browser-interface-)|getLanHosts
+[Get one Lan Host](https://dev.freebox.fr/sdk/os/lan/#put--api-v4-lan-browser-interface-hostid-)|getLanHost
+
 
 ## TODO
 
